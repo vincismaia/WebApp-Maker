@@ -37,8 +37,6 @@ function createWindow() {
     height: 700,
     minWidth: 640,
     minHeight: 440,
-    maxWidth: 1180,
-    maxHeight: 850,
     title: appName,
     icon: icon || undefined,
     show: false,
