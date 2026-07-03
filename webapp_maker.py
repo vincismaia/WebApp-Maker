@@ -579,10 +579,6 @@ class MainWindow(Gtk.Window):
         self.set_default_size(680, 520)
         self.set_size_request(560, 420)
         self.set_border_width(18)
-        geometry = Gdk.Geometry()
-        geometry.max_width = 820
-        geometry.max_height = 720
-        self.set_geometry_hints(None, geometry, Gdk.WindowHints.MAX_SIZE)
         icon_path = bundled_icon_path()
         if icon_path.exists():
             self.set_icon_from_file(str(icon_path))
